@@ -1,0 +1,29 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    z-index: 100;
+    background-color: #1f3a33b4;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+}
+
+.header a {
+    color: #F3EBDD;
+    font-weight: 1000;
+    transition: color 0.3s;
+    border: 2px inset #E4A27C;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #E4A27C;
+    background-color: #F3EBDD;
+}
